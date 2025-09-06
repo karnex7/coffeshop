@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1200px) {
+    .hero .main{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+
+    .hero .main .karnex-main{
+        width: 100%;
+        padding-right: 100px;
+        padding-left: 100px;
+        text-align: center;
+    }
+
+    .hero .main .coffee-cup img{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-contact-main .about-main-container{
+        flex-direction: column;
+    }
+
+    .about-contact-main .about-main-container .coffee-cup-img{
+        display: none;
+    }
+
+    .about-contact-main .about-main-container .about-main-info{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero .main .karnex-main{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer .footer-container .footer-medias h1{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .about-contact-main .contact-main-container .contact-container{
+        flex-direction: column;
+    }
+
+    .about-contact-main .contact-main-container .contact-container .info{
+        width: 100%;
+    }
+
+    .about-contact-main .contact-main-container .contact-container .social-medias{
+        flex-direction: row;
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .about-contact-main .contact-main-container .contact-container form{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .hero .main .coffee-cup img{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .hero .main .coffee-cup img{
+        width: 300px;
+    }
+
+    .footer .footer-container .footer-medias p{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    .shop-main h2{
+        font-size: 50px;
+    }
+
+    .hero .main .karnex-main h1{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .hero .nav-bar .left-nav .logo h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    .hero .nav-bar .left-nav .logo h1{
+        font-size: 30px;
+    }
+
+    .hero .main .coffee-cup img{
+        width: 200px;
+    }
+
+    .hero .nav-bar .left-nav{
+        flex-direction: column;
+    }
+}
