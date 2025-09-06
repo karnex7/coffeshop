@@ -29,6 +29,12 @@
     .about-contact-main .about-main-container .about-main-info{
         width: 100%;
     }
+
+    .about .about-info .about-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,6 +83,37 @@
 
     .footer .footer-container .footer-medias p{
         width: 70%;
+    }
+
+    .about .about-info .about-container .about-img img{
+        width: 300px;
+    }
+
+    .about .about-info .about-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about .about-info .about-container .kvalitet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-info .about-container .kvalitet p{
+        width: 50%;
+    }
+
+    .about .about-info .about-container .zasto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-info .about-container .zasto p{
+        width: 50%;
     }
 }
 
